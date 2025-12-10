@@ -19,10 +19,10 @@ TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Ablation Studies](#ablation-studies)
-- [Model Zoo](#model-zoo)
+<!-- - [Model Zoo](#model-zoo) -->
 - [Code Structure](#code-structure)
-- [Citation](#citation)
-- [Acknowledgments](#acknowledgments)
+<!-- - [Citation](#citation)
+- [Acknowledgments](#acknowledgments) -->
 
 ---
 
@@ -397,7 +397,7 @@ Results are saved in `./ablation_results/` with detailed metrics and visualizati
 
 ---
 
-## Model Zoo
+<!-- ## Model Zoo
 
 ### Pre-trained Models
 
@@ -410,7 +410,7 @@ Results are saved in `./ablation_results/` with detailed metrics and visualizati
 
 *Pre-trained models will be released upon paper acceptance.*
 
----
+--- -->
 
 ## Code Structure
 
@@ -474,11 +474,14 @@ python get_hardware_metrics.py \
 If you find this work helpful, please consider citing:
 
 ```bibtex
-@article{yourname2024tide,
-  title={Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration},
-  author={Your Name and Co-authors},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2024}
+@misc{venkatraman2025tidetwostageinversedegradation,
+      title={TIDE: Two-Stage Inverse Degradation Estimation with Guided Prior Disentanglement for Underwater Image Restoration}, 
+      author={Shravan Venkatraman and Rakesh Raj Madavan and Pavan Kumar S and Muthu Subash Kavitha},
+      year={2025},
+      eprint={2512.07171},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.07171}, 
 }
 ```
 
