@@ -288,8 +288,6 @@ View training progress with TensorBoard:
 tensorboard --logdir ./logs
 ```
 
-Access at: http://localhost:6006
-
 ---
 
 ## Evaluation
